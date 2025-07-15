@@ -1,0 +1,39 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgba(30, 28, 28, 0.787);
+    background: pink;
+    font-size: 10pt;
+    /* overflow: hidden; */
+    text-align: center;
+    justify-content: center;
+}
+h1{
+    text-align: center;
+    font-size: 20pt;
+}
+input{
+    font-size: 16pt;
+    width: 85vw;
+    /* max-width: 40vw; */
+    height: 10vh;
+    /* max-width: 40vw; */
+    background-color: white;
+    padding: 15pt;
+}
+div#texto{
+    width: 90vw;
+    line-height: 15pt;
+    position: relative;
+    padding: 10pt;
+    font-style: italic;
+}
+ul, p{
+    text-align: justify;
+}
+div#imagem{
+    overflow-x: scroll;
+}
+img{
+    width: 99vw;
+    overflow-x: scroll;
+}
